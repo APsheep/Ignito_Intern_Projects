@@ -1,10 +1,10 @@
-Heart Disease Prediction Pipeline
-Overview
+# Heart Disease Prediction Pipeline
+# Overview
 
 This project builds an end-to-end machine learning pipeline to predict the likelihood of heart disease using patient clinical data.
 The dataset comes from Kaggle: Heart Failure Prediction Dataset.
 
-The workflow covers:
+# The workflow covers:
 
 Data preprocessing (encoding, scaling, transformations)
 
@@ -18,7 +18,7 @@ Model evaluation with accuracy, precision, recall, F1-score, confusion matrix, a
 
 Packaging into a deployable prediction function
 
-Dataset
+# Dataset
 
 Rows: 918 patient records
 
@@ -30,9 +30,9 @@ Categorical: Sex, ChestPainType, RestingECG, ExerciseAngina, ST_Slope, FastingBS
 
 Target: HeartDisease (binary: 1 = disease, 0 = no disease)
 
-⚙️ Methodology
+# Methodology
 
-Preprocessing
+# Preprocessing
 
 One-hot encoding for multi-class categorical variables
 
@@ -42,25 +42,25 @@ StandardScaler for numerical features
 
 Managed using ColumnTransformer
 
-Modeling
+# Modeling
 
 Baseline: Logistic Regression
 
 Tuned model: Random Forest Classifier (best with 50 estimators)
 
-Pipeline
+# Pipeline
 
 Combined preprocessing + modeling into a single scikit-learn pipeline
 
 Enabled easy cross-validation and deployment
 
-Results
+# Results
 
 Logistic Regression: ~84.9% CV accuracy
 
 Random Forest (final model): ~86.0% CV accuracy
 
-Test Set Performance
+# Test Set Performance
 
 Accuracy: 86%
 
@@ -81,4 +81,4 @@ The model achieves high recall (90%) for heart disease cases, which is critical 
 
 [Demo Video](https://drive.google.com/file/d/1SXzvP1QcFhTZTLYLmy8PM0Svhsh46G0r/view?usp=drive_link)
 
- With a strong pipeline, high recall, and deployable design, this project demonstrates end-to-end ML skills for healthcare prediction tasks.
+With a strong pipeline, high recall, and deployable design, this project demonstrates end-to-end ML skills for healthcare prediction tasks.
