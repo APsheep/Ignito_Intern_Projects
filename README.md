@@ -9,10 +9,10 @@ This repository collects a few of them.
    - 📹 [Demo Video](https://youtu.be/example)  
    - Predicting weekly sales using Prophet.  
 
-2. [Digit Recognition]()  
+2. [Digit Recognition](./Recognition)  
    - 📹 [Demo Video](./project-02-recommender/demo.mp4)  
    - User-based collaborative filtering with cosine similarity.  
 
-3. [Sales Forecasting](./Sales_Forecasting-sales-forecasting)  
+3. [Sales Forecasting](./Sales_Forecasting)  
    - 📹 [Demo Video](https://youtu.be/example2)  
    - Logistic regression model with text preprocessing pipeline.  
